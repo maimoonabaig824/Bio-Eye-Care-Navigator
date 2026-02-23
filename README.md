@@ -4,6 +4,8 @@
 > 🎓 CS-109 – Computer Programming | NED University of Engineering & Technology
 > 📅 Spring Semester 2026 | Batch 2025
 
+🔗 **Live App:** [https://bio-eye-care-navigator.streamlit.app/](https://bio-eye-care-navigator.streamlit.app/)
+
 ---
 
 ## 🚀 Overview
@@ -137,8 +139,8 @@ Bio-Eye-Care-Navigator/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/bio-eye-care-navigator.git
-cd bio-eye-care-navigator
+git clone https://github.com/muhammad-ahmed-developerr/Bio-Eye-Care-Naviagtor.git
+cd Bio-Eye-Care-Navigator
 ```
 
 ### 2️⃣ Install Dependencies
@@ -158,7 +160,7 @@ pip install streamlit pandas numpy matplotlib seaborn pillow fpdf
 ## ▶️ Run the Application
 
 ```bash
-streamlit run eye.py
+streamlit run bio-eye-care-navigator.py
 ```
 
 Then open your browser at:
