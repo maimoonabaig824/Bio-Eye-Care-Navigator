@@ -127,7 +127,7 @@ The application mimics real-world ophthalmic triage logic using:
 ```
 Bio-Eye-Care-Navigator/
 │
-├── eye.py              # Main Application
+├── bio_eye_care_navigator.py              # Main Application
 ├── README.md           # Project Documentation
 └── requirements.txt    # Python Dependencies
 ```
@@ -139,7 +139,7 @@ Bio-Eye-Care-Navigator/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/muhammad-ahmed-developerr/Bio-Eye-Care-Naviagtor.git
+git clone https://github.com/maimoonabaig824/Bio-Eye-Care-Naviagtor.git
 cd Bio-Eye-Care-Navigator
 ```
 
