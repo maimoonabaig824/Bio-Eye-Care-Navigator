@@ -938,7 +938,7 @@ def show_history():
         display_df.columns = ['Date/Time', 'Name', 'Age', 'Symptom', 'Visual Acuity', 
                             'IOP (mmHg)', 'Condition', 'Severity', 'Specialist']
         
-        # Display with color coding
+        # Define color mapping function for Styler
         def color_severity(val):
             if val == 'Critical':
                 return 'background-color: #ffcccc'
@@ -948,7 +948,8 @@ def show_history():
                 return 'background-color: #d4edda'
             return ''
         
-        styled_df = display_df.style.applymap(color_severity, subset=['Severity'])
+        # FIX: Use 'map' instead of deprecated 'applymap'
+        styled_df = display_df.style.map(color_severity, subset=['Severity'])
         st.dataframe(styled_df, use_container_width=True)
         
         # Statistics
